@@ -1,0 +1,24 @@
+Audit Legacy Code
+"Scan the existing React project:
+- Identify deprecated React lifecycle methods (componentWillMount, componentWillReceiveProps, etc.).
+- Identify outdated syntax and APIs.
+- List all third-party library versions and note breaking changes in their latest versions."
+
+Update Deprecated React Methods
+"Regenerate updated versions of legacy lifecycle methods:
+- Convert to functional components with hooks (useEffect, useState, useMemo, etc.).
+- Ensure logic remains the same to maintain backward compatibility.
+- Add comments indicating migration changes."
+
+Update Configuration Files
+"Update package.json, webpack.config.js, babel.config.js to match modern standards:
+- Replace deprecated Babel presets/plugins with current ones.
+- Adjust Webpack configuration for latest React build optimizations.
+- Maintain compatibility mode for legacy builds."
+
+Handle Breaking Changes in Third-Party Libraries
+"For each third-party dependency with breaking changes:
+- Replace removed APIs with new equivalents.
+- Adjust import paths and method signatures as required.
+- Add fallback logic for legacy support."
+
